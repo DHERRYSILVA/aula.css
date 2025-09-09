@@ -1,0 +1,59 @@
+/* tag de comentario */
+/* podemos selecionar uma tag pelo nome, pelo id (indentificador único ou pela classe.) */
+body{
+    background-color: rgb(0, 128, 255);
+    /* insire um imagem no fundo do no site */
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgsCjPr5R-ESuPjlPzfMxU-xpe6HbHdrqbWw&s);
+    /* faz com que a imagem não repita  */
+    background-repeat: no-repeat;
+    /* faz com que a imagem cubra todo o espaço do site  */
+    background-size: cover;
+    
+    
+}
+p{
+    color: rgb(235, 13, 13);
+}
+#paragrafo{
+    color: grey;
+}
+/* sempre que chamamos uma tag pela classe, adicionamos o sinal de  "." no inicio  */
+.titulo{
+    /* adiciona um sublinhado ao texto  */
+    text-decoration: underline;
+    /* altera o tamanho da fonte medidas em (px,rem) */
+     font-size: 32P1.6rem;
+     /* seleciona a família da fonte  */
+     font-family: Arial, Helvetica, sans-serif;
+     /* altera o nível de negrito da fonte  */
+     font-weight: 400;
+
+}
+img{
+    /* altera a autura da imagem  */
+    height:100% ;
+    /* altera a largura da imagem  */
+    width: 100%;
+
+}
+ul{
+    /* altera o estilo da lisata  */
+    list-style: none;
+    display: flex;
+    li{
+        /* criar um escapamento interno  */
+        padding: 10px;
+        /*altera a cor de fundo  */
+        background-color: rgb(255, 0, 0);
+        /*criar um escapamento entre itens  */
+        gap: 10px;
+
+        /* altera a cor da fonte  */
+        color: blueviolet;
+        a{
+            text-decoration: none;
+        }
+    }
+
+
+}
